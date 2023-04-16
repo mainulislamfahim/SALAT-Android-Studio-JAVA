@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/allahu_logo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:paddingTop="80dp"
+        android:layout_width="118dp"
+        android:layout_height="150dp"
+        android:src="@drawable/allahu_png"
+
+        />
+
+    <TextView
+        android:id="@+id/Salat_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     SALAT"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "963297659948",
+    "project_id": "salat-7be5b",
+    "storage_bucket": "salat-7be5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963297659948:android:5b94c15f7b941b1c0a9589",
+        "android_client_info": {
+          "package_name": "com.example.salat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963297659948-32gm4s9bj1tu19qbrv2n4nit69tudvag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salat",
+            "certificate_hash": "11d84a74c3cc1e78a200ba00154185b2c4be2ce7"
+          }
+        },
+        {
+          "client_id": "963297659948-ciqr7l6grmb1rqqs1c778m4m90gjppgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5X_v67kVtwnUeAdGsV0jR9efYeRWdQgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963297659948-ciqr7l6grmb1rqqs1c778m4m90gjppgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

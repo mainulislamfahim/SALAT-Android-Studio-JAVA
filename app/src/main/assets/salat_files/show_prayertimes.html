@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0106)https://prayer-times.info/en/show_prayertimes.php?city_link=chittagong&country_link=bangladesh&box_style=2 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<title>مواقيت الصلاة Chittagong</title>
+<meta name="keywords" content="مواقيت الصلاة, مواقيت الصلاه, مواعيد الصلاة, مواعيد الصلاه, أوقات الصلاة, اوقات الصلاه, توقيت الصلاة, توقيت الصلاه">
+<meta name="description" content="تعرف على مواقيت الصلاة Chittagong و اى بلد تنوى زيارتها لتحديد مواقيت الصلاة">
+<link href="./bootstrap.rtl.min.css" rel="stylesheet">
+<link href="./style_out.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/x-icon" href="https://prayer-times.info/images/favicon.ico">
+</head>
+<body data-new-gr-c-s-check-loaded="14.1029.0" data-gr-ext-installed="">
+<div id="prayer_times_long">
+<div class="row">
+<div class="col-md-7 col-sm-7 col-xs-7">
+<img src="./logo.png" id="logo">
+<h2>Prayer times in Chittagong</h2><div id="date">
+<div id="item"><label>Hijri:</label> moay 12 Safar 1443</div>
+<div id="item"><label>Greg:</label> Monday 20th September 2021</div>
+<div id="item"><label>Time:</label> 08:18 PM</div>
+</div></div><div class="col-md-5 col-sm-5 col-xs-5">
+<a href="https://prayer-times.info/en/bangladesh/prayer-times-in-chittagong" target="_blank">
+<div id="next_pray" style="background-image: url(../images/fajr.png)">
+Upcoming prayer
+<h3>Fajr 04:27 AM</h3>
+Time remaining:
+<p id="demo">08:04:43</p>
+</div>
+</a>
+</div>
+<div class="col-md-12">
+<div id="pray_time"><h3>Fajr</h3>04:26 AM</div>
+<div id="pray_time"><h3>Sunrise</h3>05:41 AM</div>
+<div id="pray_time"><h3>Dhuhr</h3>11:46 AM</div>
+<div id="pray_time"><h3>Asr</h3>03:12 PM</div>
+<div id="pray_time"><h3>Maghrib</h3>05:51 PM</div>
+<div id="pray_time"><h3>Isha</h3>07:06 PM</div>
+</div>
+</div>
+
+</div>
+<script>
+    function calcTime(offset) {
+        // create Date object for current location
+        var d = new Date();
+
+        // convert to msec
+        // subtract local time zone offset
+        // get UTC time in msec
+        var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+
+        // create new Date object for different city
+        // using supplied offset
+        var nd = new Date(utc + (3600000*offset)).getTime();
+        return nd;
+        // return time as a string
+        //return "The local time for city"+ city +" is "+ nd.toLocaleString();
+    }
+
+    // Set the date we're counting down to
+    var countDownDate = new Date("September 21, 2021 04:27:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get today's date and time
+        //var now = new Date("September 20, 2021 20:18:00").getTime();
+        var now = calcTime("+6");
+        //alert(now);
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        if(hours<10)
+            hours='0'+hours;
+        if(minutes<10)
+            minutes='0'+minutes;
+        if(seconds<10)
+            seconds='0'+seconds;
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML =  hours + ":" + minutes + ":" + seconds;
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            location.reload();
+        }
+    }, 1000);
+</script>
+
+</body></html>

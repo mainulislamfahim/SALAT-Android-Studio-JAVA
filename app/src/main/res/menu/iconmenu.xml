@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/menu_home"
+       android:icon="@drawable/ic_baseline_home_24"
+       android:title="Home" />
+   <item android:id="@+id/time"
+       android:icon="@drawable/ic_baseline_access_time_24"
+       android:title="Time" />
+   <item android:id="@+id/qibla"
+       android:icon="@drawable/qibla"
+       android:title="Qibla" />
+   <item android:id="@+id/surah"
+       android:icon="@drawable/surah"
+       android:title="Surah" />
+   <item android:id="@+id/hadith"
+       android:icon="@drawable/hadith"
+       android:title="Hadith" />
+   <item android:id="@+id/mosques"
+       android:icon="@drawable/mosque_finder"
+       android:title="Mosque" />
+   <item android:id="@+id/calendars"
+       android:icon="@drawable/calendar"
+       android:title="Calendar" />
+   <item android:id="@+id/Share"
+       android:icon="@drawable/ic_baseline_share_24"
+       android:title="Share IT" />
+   <item android:id="@+id/rate"
+       android:icon="@drawable/ic_baseline_rate_review_24"
+       android:title="Rate Us" />
+
+
+</menu>
