@@ -12,5 +12,5 @@ The Salat app shows the timetable of the salat based on their location and also 
 
 <img src="Images/hadith.jpg" width=25% height=25% title="Hadith">
 
-<img src="Images/mosques.jpg" width=25% height=25% title="Nearby Mosques">
+<img src="Images/mosque.jpg" width=25% height=25% title="Nearby Mosques">
 For any Query: Mainulislamfahim16@gmail.com
